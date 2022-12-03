@@ -3501,7 +3501,7 @@ html {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height : 340px;
     }
-    @media (device-width) and (orientation: landscape) {
+    @media (orientation: landscape) {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height : 200px;
     }
@@ -6190,12 +6190,12 @@ html {
     max-width : 100%;
     }
     }
-    @media only screen and (device-width) and (device-width) and (orientation: landscape) {
+    @media only screen and (orientation: landscape) {
     .b-parallax {
     background-attachment : scroll;
     }
     }
-    @media only screen and (device-width) and (device-width) {
+    @media only screen {
     .b-parallax {
     background-attachment : scroll;
     }
@@ -6464,9 +6464,6 @@ html {
     }
     .fa-flip-vertical {
     transform : scale(1,-1);
-    }
-    :root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
-    filter : ;
     }
     .fa-stack {
     position : relative;
